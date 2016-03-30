@@ -1,6 +1,6 @@
 #DBUS
 
-D-Bus是一种高级的进程间通信机制，它由freedesktop.org项目提供，使用GPL许可证发行。本项目是对DBUS 1.11.2安卓平台的移植，下面是一个测试图，代码来自于官方提供的dbus-example.c
+D-Bus是一种高级的进程间通信机制，它由freedesktop.org项目提供，使用GPL许可证发行。本项目是对DBUS 1.11.2安卓平台的移植，把etc文件夹下的配置文件放到android中的/system/etc下。下面是测试结果图，代码来自于官方提供的dbus-example.c
 
 - 启动dbus-daemon
 
