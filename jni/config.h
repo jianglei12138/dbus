@@ -246,9 +246,6 @@
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
 
-/* Define if we have CLOCK_MONOTONIC */
-/* #undef HAVE_MONOTONIC_CLOCK */
-
 /* Define to 1 if you have the `nanosleep' function. */
 #define HAVE_NANOSLEEP 1
 

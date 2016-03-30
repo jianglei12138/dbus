@@ -46,17 +46,9 @@ LOCAL_MODULE:=libdbus
 
 LOCAL_CFLAGS+= \
 	-DDBUS_COMPILATION \
-	-DANDROID_MANAGED_SOCKET \
-	-DHAVE_MONOTONIC_CLOCK \
 	-DDBUS_MACHINE_UUID_FILE=\"/etc/machine-id\" \
 	-DDBUS_SYSTEM_CONFIG_FILE=\"/system/etc/dbus.conf\" \
 	-DDBUS_SESSION_CONFIG_FILE=\"/system/etc/session.conf\" \
-	-Wno-empty-body \
-	-Wno-missing-field-initializers \
-	-Wno-pointer-sign \
-	-Wno-sign-compare \
-	-Wno-tautological-compare \
-	-Wno-type-limits \
-	-Wno-unused-parameter \
+
 
 include $(BUILD_SHARED_LIBRARY)
