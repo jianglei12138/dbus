@@ -55,7 +55,7 @@
 #endif
 
 #ifdef HAVE_SYS_SYSLIMITS_H
-#include <sys/syslimits.h>
+#include <sys/limits.h>
 #endif
 
 #ifdef HAVE_SYSTEMD
